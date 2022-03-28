@@ -23,6 +23,7 @@ module.exports = {
     rules: {
         '@emotion/jsx-import': 'error',
         '@emotion/pkg-renaming': 'error',
+        'default-param-last': 0,
         'import/no-extraneous-dependencies': 'error',
         'import/no-unresolved': 0,
         'react/button-has-type': 'off',

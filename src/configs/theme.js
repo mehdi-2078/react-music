@@ -8,8 +8,7 @@ export const theme = {
         White: '#ffffff',
         GrayTweed: '#ffffff',
         PinkPeach: '#F3777D',
-
-        primary: '#2980b9',
+        Primary: '#2980b9',
         secondary: '#f39c12',
         tertiary: '#e74c3c',
         linkPrimary: '#2c3e50',

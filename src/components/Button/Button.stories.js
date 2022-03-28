@@ -9,9 +9,13 @@ export default {
     component: Button,
 };
 
+/// //چند پراپس را بهتر است در یک آبجکت قرار دهیم
 const propsButton = {
- buttonType: 'RedAutumn', width: '250px', padding: 50,
+ width: '250px', padding: 50, fontSize: `${2.4}rem`,
 };
 
-export const simple = () => <Button {...propsButton}>Button</Button>;
-export const simple2 = () => <Button {...propsButton} buttonType=''>Button2</Button>;
+export const simple = () => <Button>simple</Button>;
+export const btnDefault = () => <Button {...propsButton}>btn Default</Button>;
+export const btnRedAutumn = () => <Button buttonType='RedAutumn'>btn RedAutumn</Button>;
+export const btnPrimary = () => <Button buttonType='Primary'>btn Primary</Button>;
+export const btnProps = () => <Button {...propsButton} color="yellow" backgroundColor="green">btn props</Button>;

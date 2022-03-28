@@ -1,0 +1,8 @@
+{
+  "RESTAURANT": "Restaurant",
+  "CAFE": "Cafe",
+  "LOGIN": "Login",
+  "REGISTER": "Register",
+  "NOT_ORDER": "You have no registered orders!",
+  "CENTRAL_PERK": "Central perk",
+}

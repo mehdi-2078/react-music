@@ -1,56 +1,32 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { css, jsx, useTheme } from '@emotion/react';
-import { btnRedAutumn } from './Button.style';
+import { css, jsx } from '@emotion/react';
+import {
+    btnCommon, btnDefault, btnPrimary, btnRedAutumn,
+} from './Button.style';
 
-export function Button(props) {
-    const { theme } = useTheme();
-    const {
-        children, disabled, type, buttonType, handleClick, loading,
-        width, height, backgroundColor, color, border, borderColor,
-        borderRadius, boxShadow, fontSize, padding,
-    } = props;
-
-    console.log({ btnRedAutumn });
-    const staticStyle = css({
-        position: 'relative',
-        cursor: 'pointer',
-        display: 'flex',
-        alignItems: 'center',
-        textAlign: 'center',
-        justifyContent: 'center',
-        '&:disabled': {
-            backgroundColor: theme?.colors.backgroundColorSecondary,
-            cursor: 'no-drop',
-        },
+export function Button({
+ disabled, loading, type, handleClick, children, buttonType, ...props
+}) {
+    /// /استایل هایی که از props میگیریم را اینجا ست میکنیم
+    const btnProps = css({
+        ...props,
     });
-    let customButtonStyle;
-    switch (buttonType) {
-        case 'RedAutumn':
-            customButtonStyle = css({ btnRedAutumn });
-            break;
-        default:
-            customButtonStyle = css({
-                width,
-                height,
-                padding: padding || 8,
-                backgroundColor: backgroundColor || 'aqua',
-                color,
-                border: 0,
-                borderColor,
-                borderRadius: 4,
-                boxShadow: theme?.boxShadow.light,
-                fontSize,
-            }, staticStyle);
-    }
-    console.log({ customButtonStyle });
+
+    /// /استایل های سفارشی خود را با توجه به buttonType اینجا ست میکنیم
+    let btnCustom;
+    if (buttonType === 'RedAutumn') btnCustom = btnRedAutumn;
+    else if (buttonType === 'Primary') btnCustom = btnPrimary;
+    else btnCustom = btnDefault;
+
     return (
         /* eslint-disable react/button-has-type */
       <button
-        disabled={disabled || loading}
+        disabled={disabled}
         type={type}
         onClick={handleClick}
-        css={btnRedAutumn}
+        /// اولویت استایل دهی از سمت راست به چپ است یعنی اولویت با btnProps است
+        css={[btnCommon, btnCustom, btnProps]}
       >
         {children}
       </button>
