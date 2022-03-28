@@ -28,8 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    font-family: IRANSans, Tahoma, serif;
-    direction: rtl !important;
+    font-family: inter, serif;
     line-height: 1;
     scroll-behavior: smooth;
 }

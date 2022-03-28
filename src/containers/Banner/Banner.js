@@ -15,7 +15,10 @@ export function Banner() {
               height: inherit;
               width: inherit`}
         />
-        <span>mmmm</span>
+        <span>mmmrdggggggggggggm</span>
+        <span>mmmrdggggggggggggm</span>
+        <span>mmmrdggggggggggggm</span>
+        <span>mmmrdggggggggggggm</span>
       </div>
     );
 }
