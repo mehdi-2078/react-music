@@ -1,5 +1,5 @@
 import React from 'react';
-import i18n from 'i18next';
+import i18n from 'services/i18next';
 import { initReactI18next } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import translationEN from './locals/en/trnslation.json';

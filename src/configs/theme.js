@@ -61,7 +61,8 @@ export const theme = {
         light: '#bdc3c7',
     },
     boxShadow: {
-        light: '0 4px 16px rgba(0, 1, 31, 0.2)',
-        EerieBlack: ' 0 3.81507px 21.9367px rgba(16, 18, 35, 0.3)',
+
+        light: '0 0 17px rgba(0, 0, 0, 0.5)',
+        EerieBlack: ' 0 4px 22px rgba(16, 18, 35, 0.3)',
     },
 };

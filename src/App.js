@@ -4,13 +4,12 @@ import { jsx, ThemeProvider } from '@emotion/react';
 import { Button } from 'components';
 import { theme } from './configs/theme';
 import { Input } from './components/Input/Input';
+import { MainPage } from './pages/MainPage/MainPage';
 
 function App() {
     return (
       <ThemeProvider theme={{ theme }}>
-        <div css={{ borderRadius: theme.borderRadius[5] }}>
-          <Button> مهدی</Button>
-        </div>
+        <MainPage />
       </ThemeProvider>
     );
 }
