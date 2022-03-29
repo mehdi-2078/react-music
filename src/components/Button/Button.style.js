@@ -21,14 +21,12 @@ export const btnCommon = css({
 
 /// //استایل های باتن پیش فرض اینجا نوشته میشود
 export const btnDefault = css({
-    padding: 8,
     backgroundColor: 'aqua',
     borderRadius: 4,
 });
 
 /// //استایل های باتن سفارشی اینجا نوشته میشود
 export const btnRedAutumn = css({
-    padding: 18,
     backgroundColor: theme?.colors.RedAutumn,
     color: theme?.colors.Doctor,
     borderColor: theme?.borderColor.light,
@@ -42,7 +40,6 @@ export const btnRedAutumn = css({
 });
 
 export const btnPrimary = css({
-    padding: 18,
     backgroundColor: theme?.colors.Primary,
     color: theme?.colors.Doctor,
     borderColor: theme?.borderColor.light,
