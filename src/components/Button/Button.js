@@ -12,7 +12,6 @@ export function Button({
     const btnProps = css({
         ...props,
     });
-
     /// /استایل های سفارشی خود را با توجه به buttonType اینجا ست میکنیم
     let btnCustom;
     if (buttonType === 'RedAutumn') btnCustom = btnRedAutumn;

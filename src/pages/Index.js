@@ -1,9 +1,1 @@
-import React from 'react';
-
-function Index() {
-    return (
-      <div />
-    );
-}
-
-export default Index;
+export { MainPage } from './MainPage/MainPage';

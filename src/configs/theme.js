@@ -9,13 +9,6 @@ export const theme = {
         GrayTweed: '#ffffff',
         PinkPeach: '#F3777D',
         Primary: '#2980b9',
-        secondary: '#f39c12',
-        tertiary: '#e74c3c',
-        linkPrimary: '#2c3e50',
-        linkSecondary: '#f1c40f',
-        backgroundColorDefault: '#ffffff',
-        backgroundColorPrimary: '#ecf0f1',
-        backgroundColorSecondary: '#2c3e50',
     },
     typography: {
         paragraph: {

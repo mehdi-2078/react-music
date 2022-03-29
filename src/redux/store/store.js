@@ -10,7 +10,6 @@ const reducer = combineReducers({
     productsCafe: sliceProductCafe,
     cart: sliceCart,
     languageType: sliceLanguage,
-    auth: sliceAuth,
 });
 
 export const store = configureStore({ reducer });
