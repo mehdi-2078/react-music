@@ -8,7 +8,7 @@ import { RightBarItem } from '../../components';
 export function RightSideBar() {
     return (
       <div css={{
- width: '80%', margin: 'auto', backgroundColor: theme.colors.EerieBlack, marginTop: 30,
+ width: '94%', margin: 'auto', backgroundColor: theme.colors.EerieBlack, marginTop: 30,
 }}
       >
         <RightBarItem />

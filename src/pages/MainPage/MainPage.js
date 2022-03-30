@@ -1,38 +1,37 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, useTheme } from '@emotion/react';
-import { LeftSideBar, RightSideBar, Banner } from '../../containers/Index';
-import { theme } from '../../configs/theme';
+import {
+    LeftSideBar, RightSideBar, Banner, NewMusic,
+} from 'containers';
 
 export function MainPage() {
+    const { theme } = useTheme();
     return (
       <div css={{
             width: '100%',
-            height: '100vh',
             backgroundColor: theme.colors.CynicalBlack,
             color: theme.colors.Doctor,
+            display: 'flex',
         }}
       >
         <div css={{
                 width: '15%',
-                height: '100%',
-                position: 'fixed',
+                minHeight: '100vh',
                 backgroundColor: theme.colors.DireWolf,
             }}
         >
           <LeftSideBar />
         </div>
-        <div css={{
-              width: '100%',
-            display: 'flex',
-          }}
-        >
-          <div css={{ width: '75%', backgroundColor: 'black', margin: 'auto' }}>
+
+        <div css={{ width: '63%', margin: '0 auto', paddingBottom: 100 }}>
+          <div css={{ width: '90%', margin: '0 auto' }}>
             <Banner />
+            <NewMusic />
           </div>
-          <div css={{ width: '25%', backgroundColor: theme.colors.CynicalBlack }}>
-            <RightSideBar />
-          </div>
+        </div>
+        <div css={{ width: '22%', backgroundColor: theme.colors.CynicalBlack }}>
+          <RightSideBar />
         </div>
       </div>
     );

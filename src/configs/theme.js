@@ -7,6 +7,8 @@ export const theme = {
         Doctor: '#FAFAFA',
         White: '#ffffff',
         GrayTweed: '#ffffff',
+        Mercury: '#E4E7E5',
+        GreyCloud: '#AFB6B2',
         PinkPeach: '#F3777D',
         Primary: '#2980b9',
     },

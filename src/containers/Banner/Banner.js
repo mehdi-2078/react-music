@@ -13,7 +13,7 @@ export function Banner() {
     const Container = styled.div({
         position: 'relative',
         backgroundColor: 'transparent',
-        width: '80%',
+        width: '100%',
         height: '454px',
         margin: 'auto',
         display: 'flex',
@@ -69,7 +69,7 @@ export function Banner() {
           />
         </div>
         <div css={{
-                position: 'absolute', top: '50%', left: '2%', color: '#959D99',
+                position: 'absolute', top: '65%', left: '2%', color: '#959D99',
             }}
         >
           <h5 css={{ margin: '10px 0' }}>pop</h5>
