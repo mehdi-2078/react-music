@@ -11,6 +11,7 @@ export const theme = {
         GreyCloud: '#AFB6B2',
         PinkPeach: '#F3777D',
         Primary: '#2980b9',
+        Gray: '#7A8580',
     },
     typography: {
         paragraph: {

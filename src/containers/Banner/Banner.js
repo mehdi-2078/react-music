@@ -18,7 +18,7 @@ export function Banner() {
         margin: 'auto',
         display: 'flex',
         borderRadius: theme.borderRadius[3],
-        marginTop: 10,
+        marginTop: 30,
         border: 0,
     });
 

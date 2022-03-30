@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, useTheme } from '@emotion/react';
 import {
-    LeftSideBar, RightSideBar, Banner, NewMusic,
+    LeftSideBar, RightSideBar, Banner, NewMusic, Categories,
 } from 'containers';
 
 export function MainPage() {
@@ -30,8 +30,9 @@ export function MainPage() {
             <NewMusic />
           </div>
         </div>
-        <div css={{ width: '22%', backgroundColor: theme.colors.CynicalBlack }}>
+        <div css={{ width: '34%', backgroundColor: theme.colors.CynicalBlack }}>
           <RightSideBar />
+          <Categories />
         </div>
       </div>
     );

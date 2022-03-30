@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e8809e-6fa0-45ce-98a2-66fa05b69044" name="Changes" comment="version 0.0.4 &#10;add containers">
-      <change afterPath="$PROJECT_DIR$/src/components/NewMusicItem/NewMusicItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RecentlyMusicItem/RecntlyMusicItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/NewMusic/NewMusic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/HOC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+    <list default="true" id="f3e8809e-6fa0-45ce-98a2-66fa05b69044" name="Changes" comment="version 0.0.6 add sideBars">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategorieItem/CategorieItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Categories/Categories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RightBarItem/RightBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBarItem/RightBarItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/configs/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LeftSideBar/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/LeftSideBar/LeftSideBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/RightSideBar/RightSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/RightSideBar/RightSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -36,23 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.storybook/main.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/jsconfig.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Button/Button.stories.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.storybook/main.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Button/Button.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26sz4eXP2F9h9LGExdDIxHR8KO5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,10 +60,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -72,14 +73,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src/container" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/configs" />
+      <recent name="$PROJECT_DIR$/src/redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.storybook" />
@@ -102,31 +102,8 @@
       <workItem from="1648242636417" duration="5240000" />
       <workItem from="1648294737662" duration="30302000" />
       <workItem from="1648390030571" duration="22594000" />
-      <workItem from="1648479827195" duration="14585000" />
-      <workItem from="1648593925382" duration="6629000" />
+      <workItem from="1648634505054" duration="17487000" />
     </task>
-    <task id="LOCAL-00001" summary="version 0.0.4 &#10;add containers">
-      <created>1648499729087</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1648499729087</updated>
-    </task>
-    <task id="LOCAL-00002" summary="version 0.0.4 &#10;add containers">
-      <created>1648499780038</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1648499780038</updated>
-    </task>
-    <task id="LOCAL-00003" summary="version 0.0.4 &#10;add containers">
-      <created>1648500394738</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1648500394738</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,11 +162,6 @@
         <entry key="b2a4eb7e-9cbe-44df-8287-a56fd3f7d9d0" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="version 0.0.4 &#10;add containers" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.0.4 &#10;add containers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,8 +171,8 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js</url>
-          <line>24</line>
+          <url>file://$PROJECT_DIR$/src/components/CategorieItem/CategorieItem.js</url>
+          <line>2</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
