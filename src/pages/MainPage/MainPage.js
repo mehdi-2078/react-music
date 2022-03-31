@@ -4,8 +4,7 @@ import { jsx, useTheme } from '@emotion/react';
 import {
     LeftSideBar, RightSideBar, Banner, NewMusic, Categories, RecentlyPlayed,
 } from 'containers';
-import { Carousel } from 'components/Carousel/Carousel';
-import { NewMusicItem } from '../../components';
+import { PlayMusic } from 'components';
 
 export function MainPage() {
     const { theme } = useTheme();
@@ -21,6 +20,7 @@ export function MainPage() {
                 width: '15%',
                 minHeight: '100vh',
                 backgroundColor: theme.colors.DireWolf,
+                borderRight: '1px solid #7A8580',
             }}
         >
           <LeftSideBar />
@@ -37,6 +37,7 @@ export function MainPage() {
           <RightSideBar />
           <Categories />
         </div>
+        <PlayMusic />
       </div>
     );
 }
