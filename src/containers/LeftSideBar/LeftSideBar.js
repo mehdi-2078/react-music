@@ -14,7 +14,7 @@ export function LeftSideBar() {
             paddingTop: '7%',
         }}
       >
-        <div css={{ display: 'flex', alignItems: 'center' }}>
+        <div css={{ display: 'flex', alignItems: 'center', marginBottom: 30 }}>
           <img
             src={logo}
             alt=''
@@ -29,6 +29,8 @@ export function LeftSideBar() {
             Auditico
           </span>
         </div>
+        <NavBar name='Home' iconName='FaHome' />
+        <NavBar name='Favorite' iconName='FaRegHeart' />
 
       </div>
     );

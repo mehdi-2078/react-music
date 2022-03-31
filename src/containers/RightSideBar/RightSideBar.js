@@ -20,6 +20,7 @@ export function RightSideBar() {
                 paddingTop: 10,
             }}
         >
+          <div css={{ margin: '10px auto', width: '90%' }}>Top Streams Real-time</div>
           {[1, 1, 1, 1, 1, 1, 1].map((item, index) => (
                     // eslint-disable-next-line react/no-array-index-key
             <RightBarItem />

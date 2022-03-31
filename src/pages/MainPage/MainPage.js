@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, useTheme } from '@emotion/react';
 import {
-    LeftSideBar, RightSideBar, Banner, NewMusic, Categories,
+    LeftSideBar, RightSideBar, Banner, NewMusic, Categories, RecentlyPlayed,
 } from 'containers';
 import { Carousel } from 'components/Carousel/Carousel';
 import { NewMusicItem } from '../../components';
@@ -30,6 +30,7 @@ export function MainPage() {
           <div css={{ width: '90%', margin: '0 auto' }}>
             <Banner />
             <NewMusic />
+            <RecentlyPlayed />
           </div>
         </div>
         <div css={{ width: '34%', backgroundColor: theme.colors.CynicalBlack }}>

@@ -2,7 +2,8 @@ import { css } from '@emotion/react';
 import { theme } from '../../configs/theme';
 
 export const navBarCommon = css({
-    width: '100%',
+    width: '90%',
+    margin: 'auto',
     position: 'relative',
     cursor: 'pointer',
     display: 'flex',
@@ -12,8 +13,7 @@ export const navBarCommon = css({
     border: 0,
     color: theme.colors.Doctor,
     backgroundColor: 'transparent',
-    paddingTop: '10px',
-    paddingBottom: '10px',
+    padding: '12px 0 ',
     fontWeight: 'bold',
 
 });

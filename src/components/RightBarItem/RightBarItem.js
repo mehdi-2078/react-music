@@ -29,7 +29,7 @@ export function RightBarItem() {
                   width: '50px',
                   height: '50px',
                   borderRadius: theme.borderRadius[1],
-                  marginRight: 5,
+                  marginRight: 10,
               }}
             />
             <div>
