@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e8809e-6fa0-45ce-98a2-66fa05b69044" name="Changes" comment="version 0.0.6 add sideBars">
+    <list default="true" id="f3e8809e-6fa0-45ce-98a2-66fa05b69044" name="Changes" comment="version 0.0.8 add categories and edit rightSideBar">
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CategorieItem/CategorieItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Categories/Categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/chill.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/christmas.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/hip hop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/jazz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/podcast.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/rock.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/romance.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightBarItem/RightBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightBarItem/RightBarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configs/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/LeftSideBar/LeftSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/LeftSideBar/LeftSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/RightSideBar/RightSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/RightSideBar/RightSideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -102,8 +101,17 @@
       <workItem from="1648242636417" duration="5240000" />
       <workItem from="1648294737662" duration="30302000" />
       <workItem from="1648390030571" duration="22594000" />
-      <workItem from="1648634505054" duration="17487000" />
+      <workItem from="1648634505054" duration="17979000" />
+      <workItem from="1648723610286" duration="642000" />
     </task>
+    <task id="LOCAL-00001" summary="version 0.0.8 add categories and edit rightSideBar">
+      <created>1648681668663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648681668664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +171,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="version 0.0.8 add categories and edit rightSideBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.0.8 add categories and edit rightSideBar" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -173,7 +186,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/CategorieItem/CategorieItem.js</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
