@@ -4,3 +4,4 @@ export { RightBarItem } from './RightBarItem/RightBarItem';
 export { NewMusicItem } from './NewMusicItem/NewMusicItem';
 export { RecentlyMusicItem } from './RecentlyMusicItem/RecntlyMusicItem';
 export { CategorieItem } from './CategorieItem/CategorieItem';
+export { Carousel } from './Carousel/Carousel';

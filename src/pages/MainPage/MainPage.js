@@ -4,6 +4,8 @@ import { jsx, useTheme } from '@emotion/react';
 import {
     LeftSideBar, RightSideBar, Banner, NewMusic, Categories,
 } from 'containers';
+import { Carousel } from 'components/Carousel/Carousel';
+import { NewMusicItem } from '../../components';
 
 export function MainPage() {
     const { theme } = useTheme();
